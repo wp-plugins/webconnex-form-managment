@@ -1,0 +1,34 @@
+/*Editor Buttons*/
+#insert-wxform-button .dashicons {
+  position: relative;
+  top: 3px;
+  margin-right: 2%;
+}
+#wx_popup_container {display: none}
+
+/*Editor Pop-up*/
+.wx_popup_container label,  .wx_popup_container input, .wx_popup_container select {
+ display: block;
+  width: 12em;
+  float: left;
+  clear: left;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+.wx_popup_container input, .wx_popup_container select {
+  clear: none;
+  width: 20em;
+  margin-top: 0;
+}
+.wx_popup_container .wp-picker-container {
+  float: left;
+  width: auto;
+}
+.wx_popup_container #wx-add-form-button {
+ display: block;
+ margin: 1em auto;  
+ clear: both;
+}
+.wx_popup_container fieldset {
+  clear: both
+}
